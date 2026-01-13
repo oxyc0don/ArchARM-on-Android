@@ -20,7 +20,7 @@ mkdir -p /data/local/arch/arm64
 ARCHDIR="/data/local/arch/arm64"
 
 wget http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
-bsdtar -xpf ArchLinuxARM-aarch64-latest.tar.gz -C ${ARCHDIR}/
+tar -xvzf ArchLinuxARM-aarch64-latest.tar.gz -C ${ARCHDIR}/
 
 mount -t proc proc ${ARCHDIR}/proc/
 mount -t sysfs sys ${ARCHDIR}/sys/
