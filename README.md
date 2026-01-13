@@ -3,13 +3,13 @@ ArchARM on Android
 
 ### Prepare
 ```
-Get Generic AArch64 tarrball:
+Get Generic AArch64 tarball:
 wget http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 
 create folder:
 mkdir mountpoint
 
-extract as root (noot sudp):
+extract as root (noot sudo):
 bsdtar -xpf ArchLinuxARM-aarch64-latest.tar.gz -C mountpoint
 
 ```
